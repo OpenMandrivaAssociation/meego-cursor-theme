@@ -23,8 +23,8 @@ MeeGo X cursors icon theme.
 
 %install
 rm -rf %{buildroot}
-mkdir -p %{buildroot}%{_datadir}/icons/meego/cursors
-cp -r xcursors/* %{buildroot}%{_datadir}/icons/meego/cursors
+mkdir -p %{buildroot}%{_datadir}/icons/moblin/cursors
+cp -r xcursors/* %{buildroot}%{_datadir}/icons/moblin/cursors
 
 %clean
 rm -rf %{buildroot}
@@ -42,4 +42,4 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc AUTHORS COPYING
-%{_datadir}/icons/meego/
+%{_datadir}/icons/moblin/
