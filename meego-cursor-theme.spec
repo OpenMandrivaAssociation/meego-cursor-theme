@@ -6,7 +6,7 @@ Release: %mkrel 1
 Summary: MeeGo X cursors icon theme
 Group: Graphics
 License: CC-BY
-URL: http://www.meego.com
+URL: https://www.meego.com
 Source0: http://repo.meego.com/MeeGo/releases/1.1/netbook/repos/source/%{name}-%{version}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: xcursorgen
